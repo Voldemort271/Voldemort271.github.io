@@ -12,7 +12,6 @@
             $('.footer-button').removeClass('active');
             $(page + "Button").addClass('active');
         };
-        switchPage('#home');
         $(document).ready(function() {
             $("#search-team").on("keyup", function() {
                 var value = $(this).val().toLowerCase();
@@ -32,3 +31,6 @@
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
+
+
+        switchPage('#home');
